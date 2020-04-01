@@ -34,8 +34,8 @@ def seed_everything(seed=1234):
     torch.backends.cudnn.deterministic = True
 seed_everything()
 
-CRAWL_EMBEDDING_PATH = '../input/fasttext-crawl-300d-2m/crawl-300d-2M.vec'
-GLOVE_EMBEDDING_PATH = '../input/glove840b300dtxt/glove.840B.300d.txt'
+CRAWL_EMBEDDING_PATH = '../input/crawl-300d-2M.vec'
+GLOVE_EMBEDDING_PATH = '../input/glove.840B.300d.txt'
 NUM_MODELS = 2
 LSTM_UNITS = 128
 DENSE_HIDDEN_UNITS = 4 * LSTM_UNITS
